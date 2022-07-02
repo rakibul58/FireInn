@@ -14,7 +14,7 @@
                   <label for="exampleInputPassword1" class="form-label"></label><b>Password</b></label>
                   <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Password">
                 </div>
-                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="submit" class="btn btn-primary">Login</button>&nbsp;&nbsp;&nbsp;<a href="/adminlogin">Login as Admin</a>
               </form>
         </div>
     </div>

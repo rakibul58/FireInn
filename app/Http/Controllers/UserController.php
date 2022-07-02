@@ -32,4 +32,16 @@ class UserController extends Controller
         return redirect('/login');
         
     }
+    function adminLogin(Request $req){
+        $admin = $req->email;
+        $password = $req->password;
+        if($admin == "user" && $password == "123"){
+            $req->session()->put('admin',$admin);
+            return redirect('/dashboard');
+        }
+        else
+            return "Username or Password Not matched";
+    }
+
+    
 }
